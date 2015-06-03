@@ -1,7 +1,7 @@
 # Virtualbox + phpVirtualbox
-# Virtualbox + PHPVirtualbox
 
-วิธีการติดตั้ง  Virtualbox (Linux)
+
+##วิธีการติดตั้ง  Virtualbox (Linux)
 
 1. เข้าไป แก้ไข Sourcelist
 
