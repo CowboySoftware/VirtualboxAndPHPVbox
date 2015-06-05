@@ -41,9 +41,14 @@ $ sudo useradd -m vbox -G vboxusers
 $ sudo passwd vbox
 ```
 * เข้าไปเพิ่ม  User ที่เข้าไปใช้ งาน VBoxWeb initscrip ของ  Virtualbox
+(ในกรณีที่ไม่มีไฟล์นั้น create ไฟล์นั้นๆ ขึ้นมา) โดยใช้คำสั่ง
+
 ```sh
-VBOXWEB_USER=vbox
+sudo vi /etc/defaults/virtualbox
 ```
+``
+เพิ่ม VBOXWEB_USER=vbox ในไฟล์นั้นๆ
+``
 * เข้าไปสร้าง System Startup โดยใช้
 ```sh
 $ update-rc.d vboxweb-service defaults
